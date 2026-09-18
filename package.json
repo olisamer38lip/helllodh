@@ -3,8 +3,38 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js",
-    "build": "echo 'No build required'"
+    "dev": "vite --host 0.0.0.0",
+    "start": "vite --host 0.0.0.0",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@blinkdotnew/sdk": "*",
+    "@radix-ui/react-avatar": "*",
+    "@radix-ui/react-dialog": "*",
+    "@radix-ui/react-slot": "*",
+    "@radix-ui/react-tooltip": "*",
+    "@tanstack/react-query": "*",
+    "@tanstack/react-router": "*",
+    "@tanstack/react-start": "*",
+    "@tanstack/start": "*",
+    "class-variance-authority": "*",
+    "clsx": "*",
+    "framer-motion": "^13.4.0",
+    "lucide-react": "*",
+    "react": "*",
+    "react-dom": "*",
+    "sonner": "*",
+    "tailwind-merge": "*",
+    "tailwindcss": "*",
+    "tw-animate-css": "*"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@vitejs/plugin-react": "*",
+    "typescript": "*",
+    "vinxi": "*",
+    "vite": "*"
   }
 }
